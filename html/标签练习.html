@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>form</title>
+	</head>
+	<body>
+		<form action="www.baidu.com" method="post">
+			<div id="">
+				姓名:<input type="text" name="username"/>
+			</div>
+			<div>
+				密码:<input type="password" name="psd"/>
+			</div>
+			<div>
+				爱好:
+				<input type="checkbox" name="hobby" value="run"/>跑步
+				<input type="checkbox" name="hobby" value="read"/>读书
+			</div>
+			<div id="">
+				性别:
+				<input type="radio" name="sex" value ="0"/>男
+				<input type="radio" name="sex" value="1"/>女
+			</div>
+			<div>
+				地区:
+				<select name="area">
+					<option value="nj">南京
+					</option>
+					<option value="hf">合肥</option>
+				</select>
+			</div>
+			<div>
+				生日:
+				<input type="date" name="date"/>
+			</div>
+			<div>
+				上传头像:<input type="file" name="file"/>
+			</div>
+			<div>
+				年龄:<input type="number" name="age" max="100" min="0"/>
+			</div>
+			<div>
+				<textarea name="desc"></textarea>
+			</div>
+			<div>
+				邮箱:<input type="email" />
+			</div>
+			<div>
+				<input type="submit" value="提交"/>
+			</div>
+		</form>
+	</body>
+</html>
